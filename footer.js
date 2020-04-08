@@ -1,6 +1,7 @@
 var footer = document.getElementById("footer");
 var content_footer = '' +
-		'<div id="publications" class="vertical section">' +
+	'<div id="content_footer" class="horizontal">' +
+	'<div id="publications" class="vertical section">' +
 		'<h1 class="title">nos publications</h1>' +
 		'<a href="#" class="title">notre page facebook</a>' +
 		'<a href="#" class="title">notre page twitter</a>' +
@@ -16,5 +17,6 @@ var content_footer = '' +
 		'<a href="#" class="title">qui sommes-nous ?</a>' +
 		'<a href="#" class="title">contactez-nous</a>' +
 		'<a href="#" class="title">comment ce site est fait</a>' +
+	'</div>' +
 	'</div>';
 footer.innerHTML=content_footer;

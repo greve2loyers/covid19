@@ -5,6 +5,10 @@ footer {
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
+#content_footer {
+	margin: auto;
+	width: 100%;
+}
 footer .section {
 	margin-top: 0px;
 }
@@ -30,3 +34,19 @@ footer a {
 }
 /*FONTS*/
 /*////////////////////////////////////////////////////*/
+
+@media only screen and (max-width: 900px) {
+	#footer {
+		padding-left: 10px;
+		padding-right: 10px;
+		width: calc(100% - 20px);
+	}
+	#content_footer {
+		flex-direction: column;
+		width: auto;
+	}
+	#content_footer .section {
+		margin: 50px auto;
+		margin-left: 0px;
+	}
+}
