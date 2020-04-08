@@ -3,6 +3,7 @@ var content_header = '' +
 			'<div id="name" class="horizontal">' +
 				'<a class="title" href="#">greve2loyers</a>' +
 			'</div>' +
+			'<button type="button" id="sandwich"></button>' +
 			'<nav id="nav_menu" class="horizontal">' +
 				'<div>' +
 					'<a class="title menu" href="#">guide</a>' +
@@ -32,7 +33,7 @@ var content_header = '' +
 					'</div>' +
 				'</div>' +
 				'<div>' +
-					'<a class="title menu" href="#">f.a.q.</a>' +
+					'<a class="title menu" href="#">f.a.q</a>' +
 				'</div>' +
 			'</nav>';
 header.innerHTML=content_header;

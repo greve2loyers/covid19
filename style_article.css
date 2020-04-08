@@ -57,9 +57,10 @@ article .vertical li::before {
 /*ARTICLES EN STRIP*/
 .strip article {
 	background-color: var(--strip-background1);
-	width: 100%;
+	width: calc(100% - 10px);
 	margin: 0px;
 	padding: 100px 0px;
+	padding-left: 10px;
 }
 .strip article > div {
 	padding: auto 10px;
@@ -70,7 +71,9 @@ article .vertical li::before {
 	font-size: 70px;
 	font-weight: 600;
 	letter-spacing: 1px;
-	margin: 10px 0px;
+	line-height: 1.5em;
+	margin: 0px;
 }
 /*ARTICLES EN STRIP*/
 /*///////////////////////////////////*/
+
