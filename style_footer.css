@@ -1,0 +1,32 @@
+/*////////////////////////////////////////////////////*/
+/*FOOTER*/
+footer {
+	background-color: var(--footer-background);
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+footer .section {
+	margin-top: 0px;
+}
+footer .section > * {
+	margin: 0px auto 20px 0px;
+}
+/*FOOTER*/
+/*////////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////////////////////////////////*/
+/*FONTS*/
+footer h1 {
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: var(--footer-title);
+}
+footer a {
+	font-size: 15px;
+	color: var(--footer-text);
+}
+/*FONTS*/
+/*////////////////////////////////////////////////////*/

@@ -1,0 +1,76 @@
+/*///////////////////////////////////*/
+/*ARTICLES*/
+article {
+	margin: 100px 0px 100px 10%;
+	width: 80%;
+}
+article .vertical h1, article .vertical p {
+	margin-left: 0px;
+}
+article .vertical h1 {
+	font-size: 44px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 40px 0px;
+	color: var(--article-big);
+}
+article .vertical h2 {
+	font-size: 34px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 20px 0px;
+	color: var(--article-medium);
+}
+article .vertical p {
+	font-size: 22px;
+	margin: 10px 0px;
+	line-height: 1.9;
+	color: var(--article-little);
+}
+article .vertical ul {
+	margin: 10px 0px;
+}
+article .vertical li {
+	font-size: 22px;
+	line-height: 1.9;
+	color: var(--article-little);
+	position: relative;
+	margin-left: 20px;
+}
+article .vertical li::before {
+	content: "";
+	position: absolute;
+	left: -20px;
+	top: calc(50% - 4px);
+	width: 8px;
+	height: 8px;
+	background-color: var(--article-little);
+}
+/*ARTICLES*/
+/*///////////////////////////////////*/
+
+
+
+
+/*///////////////////////////////////*/
+/*ARTICLES EN STRIP*/
+.strip article {
+	background-color: var(--strip-background1);
+	width: 100%;
+	margin: 0px;
+	padding: 100px 0px;
+}
+.strip article > div {
+	padding: auto 10px;
+}
+.strip article h1 {
+	color: var(--strip-textcolor1);
+	text-transform: uppercase;
+	font-size: 70px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 10px 0px;
+}
+/*ARTICLES EN STRIP*/
+/*///////////////////////////////////*/

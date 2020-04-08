@@ -1,0 +1,54 @@
+/*////////////////////////////////////////////*/
+/*ORGANISATION GLOBALE*/
+main {
+	width: 100%;
+}
+#sommaire {
+	width: 200px;
+	height: 100%;
+	margin: 140px 20px;
+}
+#articles_accueil {
+	width: 60%;
+	margin-left: 0px;
+}
+/*ORGANISATION GLOBALE*/
+/*////////////////////////////////////////////*/
+
+
+
+
+
+/*////////////////////////////////////////////*/
+/*SOMMAIRE*/
+#sommaire {
+	padding: 10px;
+	border: 2px solid var(--sommaire-frame);
+}
+#sommaire * {
+	margin: 5px 0px;
+}
+#sommaire p {
+	font-weight: 600;
+	color: var(--sommaire-title);
+	margin-bottom: 10px;
+}
+#sommaire a {
+	font-weight: 100;
+	color: var(--sommaire-link);
+}
+#sommaire a.subsommaire {
+	margin-left: 20px;
+	position: relative;
+}
+#sommaire a.subsommaire::before {
+	content: "";
+	position: absolute;
+	left: -10px;
+	top: 8px;	
+	width: 6px;
+	height: 6px;
+	background-color: var(--sommaire-frame);
+}
+/*SOMMAIRE*/
+/*////////////////////////////////////////////*/

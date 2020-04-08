@@ -1,0 +1,210 @@
+/*/////////////////////////////////////////////*/
+/*GENERAL SETTINGS*/
+html {
+	scroll-behavior: smooth;
+}
+.horizontal {
+	display: flex;
+	flex-direction: row;
+}
+.horizontal > * {
+	margin: auto;
+}
+
+.vertical {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.vertical > * {
+	margin: auto 0px;
+}
+main {
+	min-height: calc(100vh - 70px);
+}
+.sticky {
+	position: sticky;
+	position: -webkit-sticky; /*safari*/
+	top: 20px;
+}
+/*GENERAL SETTINGS*/
+/*/////////////////////////////////////////////*/
+
+
+
+
+/*/////////////////////////////////////////////*/
+/*RESET*/
+*:not(script) {
+	display: block;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+* {
+	cursor: default;
+}
+/*RESET*/
+/*/////////////////////////////////////////////*/
+
+
+
+
+/*/////////////////////////////////////////////*/
+/*GLOBAL VARIABLE COLORS*/
+:root {
+	--header-logo:				rgb(74,  74,  74);
+	--header-link:				rgb(14,  14,  14);
+	--header-background: 		rgb(250, 250, 250);
+
+	--footer-title:				rgb(234, 234, 234);
+	--footer-text:				rgb(174, 174, 174);
+	--footer-background: 		rgb(22,  22,  22);
+
+	--strip-background1:	 	rgb(160, 120, 100);
+	--strip-textcolor1:		 	rgb(170, 50,  40);
+	--strip-background2:	 	rgb(16, 125, 100);
+	--strip-textcolor2:		 	rgb(17, 50,  40);
+	
+	--article-big: 				rgb(74,  74,  74);
+	--article-medium: 			rgb(104, 104, 104);
+	--article-little: 			rgb(124, 124, 124);
+	--article-em: 				rgb(235, 102, 27);
+	--article-link:				rgb(12, 174, 73);
+
+	--sommaire-frame: 			rgb(220, 220, 220);
+	--sommaire-title:			rgb(74,  74,  74);
+	--sommaire-link:			rgb(14,  14,  14);
+
+}
+/*GLOBAL VARIABLE COLORS*/
+/*/////////////////////////////////////////////*/
+
+
+
+
+/*////////////////////////////////////////////////////*/
+/*FONTS*/
+@font-face {
+	font-family: 'cabrion';
+	src: url('./font/cabrion/cabrion-light.woff2') format('woff2'),
+	url('./font/cabrion/cabrion-light.woff') format('woff');
+	url('./font/cabrion/cabrion-light.otf') format('opentype');
+}
+@font-face {
+	font-family: 'paradroid';
+	src: url('./font/paradroid/paradroidmono-light.woff2') format('woff2'),
+	url('./font/paradroid/paradroidmono-light.woff') format('woff');
+	url('./font/paradroid/paradroidmono-light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'louisgeorge';
+	src: url('./font/louisgeorge/louis_george_cafe.woff2') format('woff2'),
+	url('./font/louisgeorge/louis_george_cafe.woff') format('woff');
+	url('./font/louisgeorge/louis_george_cafe.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'louisgeorge_bold';
+	src: url('./font/louisgeorge/louis_george_cafe_bold.woff2') format('woff2'),
+	url('./font/louisgeorge/louis_george_cafe_bold.woff') format('woff');
+	url('./font/louisgeorge/louis_george_cafe_bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'louisgeorge_bolditalic';
+	src: url('./font/louisgeorge/louis_george_cafe_bold_italic.woff2') format('woff2'),
+	url('./font/louisgeorge/louis_george_cafe_bold_italic.woff') format('woff');
+	url('./font/louisgeorge/louis_george_cafe_bold_italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'louisgeorge_italic';
+	src: url('./font/louisgeorge/louis_george_cafe_italic.woff2') format('woff2'),
+	url('./font/louisgeorge/louis_george_cafe_italic.woff') format('woff');
+	url('./font/louisgeorge/louis_george_cafe_italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'louisgeorge_light';
+	src: url('./font/louisgeorge/louis_george_cafe_light.woff2') format('woff2'),
+	url('./font/louisgeorge/louis_george_cafe_light.woff') format('woff');
+	url('./font/louisgeorge/louis_george_cafe_light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'louisgeorge_lightitalic';
+	src: url('./font/louisgeorge/louis_george_cafe_light_italic.woff2') format('woff2'),
+	url('./font/louisgeorge/louis_george_cafe_light_italic.woff') format('woff');
+	url('./font/louisgeorge/louis_george_cafe_light_italic.ttf') format('truetype');
+}
+.title {
+	font-family: 'paradroid', monospace;
+	text-transform: uppercase;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'louisgeorge_bold', 'cabrion', sans-serif;
+}
+a, p, li {
+	font-family: 'louisgeorge', 'cabrion', sans-serif;
+}
+a {
+	cursor: pointer;
+}
+article a {
+	color: var(--article-link);
+}
+article b, article em, article i, article a {
+	display: inline;
+}
+i {
+	font-style: italic;
+}
+b {
+	font-weight: 600;
+	color: var(--article-medium);
+}
+em {
+	font-weight: 600;
+	color: var(--article-em);
+}
+/*FONTS*/
+/*////////////////////////////////////////////////////*/
