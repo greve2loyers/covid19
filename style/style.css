@@ -132,51 +132,51 @@ blockquote, q {
 /*FONTS*/
 @font-face {
 	font-family: 'cabrion';
-	src: url('./font/cabrion/cabrion-light.woff2') format('woff2'),
-	url('./font/cabrion/cabrion-light.woff') format('woff');
-	url('./font/cabrion/cabrion-light.otf') format('opentype');
+	src: url('../font/cabrion/cabrion-light.woff2') format('woff2'),
+	url('../font/cabrion/cabrion-light.woff') format('woff');
+	url('../font/cabrion/cabrion-light.otf') format('opentype');
 }
 @font-face {
 	font-family: 'paradroid';
-	src: url('./font/paradroid/paradroidmono-light.woff2') format('woff2'),
-	url('./font/paradroid/paradroidmono-light.woff') format('woff');
-	url('./font/paradroid/paradroidmono-light.ttf') format('truetype');
+	src: url('../font/paradroid/paradroidmono-light.woff2') format('woff2'),
+	url('../font/paradroid/paradroidmono-light.woff') format('woff');
+	url('../font/paradroid/paradroidmono-light.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'louisgeorge';
-	src: url('./font/louisgeorge/louis_george_cafe.woff2') format('woff2'),
-	url('./font/louisgeorge/louis_george_cafe.woff') format('woff');
-	url('./font/louisgeorge/louis_george_cafe.ttf') format('truetype');
+	src: url('../font/louisgeorge/louis_george_cafe.woff2') format('woff2'),
+	url('../font/louisgeorge/louis_george_cafe.woff') format('woff');
+	url('../font/louisgeorge/louis_george_cafe.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'louisgeorge_bold';
-	src: url('./font/louisgeorge/louis_george_cafe_bold.woff2') format('woff2'),
-	url('./font/louisgeorge/louis_george_cafe_bold.woff') format('woff');
-	url('./font/louisgeorge/louis_george_cafe_bold.ttf') format('truetype');
+	src: url('../font/louisgeorge/louis_george_cafe_bold.woff2') format('woff2'),
+	url('../font/louisgeorge/louis_george_cafe_bold.woff') format('woff');
+	url('../font/louisgeorge/louis_george_cafe_bold.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'louisgeorge_bolditalic';
-	src: url('./font/louisgeorge/louis_george_cafe_bold_italic.woff2') format('woff2'),
-	url('./font/louisgeorge/louis_george_cafe_bold_italic.woff') format('woff');
-	url('./font/louisgeorge/louis_george_cafe_bold_italic.ttf') format('truetype');
+	src: url('../font/louisgeorge/louis_george_cafe_bold_italic.woff2') format('woff2'),
+	url('../font/louisgeorge/louis_george_cafe_bold_italic.woff') format('woff');
+	url('../font/louisgeorge/louis_george_cafe_bold_italic.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'louisgeorge_italic';
-	src: url('./font/louisgeorge/louis_george_cafe_italic.woff2') format('woff2'),
-	url('./font/louisgeorge/louis_george_cafe_italic.woff') format('woff');
-	url('./font/louisgeorge/louis_george_cafe_italic.ttf') format('truetype');
+	src: url('../font/louisgeorge/louis_george_cafe_italic.woff2') format('woff2'),
+	url('../font/louisgeorge/louis_george_cafe_italic.woff') format('woff');
+	url('../font/louisgeorge/louis_george_cafe_italic.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'louisgeorge_light';
-	src: url('./font/louisgeorge/louis_george_cafe_light.woff2') format('woff2'),
-	url('./font/louisgeorge/louis_george_cafe_light.woff') format('woff');
-	url('./font/louisgeorge/louis_george_cafe_light.ttf') format('truetype');
+	src: url('../font/louisgeorge/louis_george_cafe_light.woff2') format('woff2'),
+	url('../font/louisgeorge/louis_george_cafe_light.woff') format('woff');
+	url('../font/louisgeorge/louis_george_cafe_light.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'louisgeorge_lightitalic';
-	src: url('./font/louisgeorge/louis_george_cafe_light_italic.woff2') format('woff2'),
-	url('./font/louisgeorge/louis_george_cafe_light_italic.woff') format('woff');
-	url('./font/louisgeorge/louis_george_cafe_light_italic.ttf') format('truetype');
+	src: url('../font/louisgeorge/louis_george_cafe_light_italic.woff2') format('woff2'),
+	url('../font/louisgeorge/louis_george_cafe_light_italic.woff') format('woff');
+	url('../font/louisgeorge/louis_george_cafe_light_italic.ttf') format('truetype');
 }
 .title {
 	font-family: 'paradroid', monospace;
