@@ -1,6 +1,6 @@
 var header = document.getElementById("header");
 var content_header = '' +
-			'<button type="button" id="sandwich"></button>' +
+			'<input type="checkbox" id="sandwich">' +
 			'<div id="name" class="horizontal">' +
 				'<a class="title" href="https://greve2loyers.github.io/covid19">greve2loyers</a>' +
 			'</div>' +

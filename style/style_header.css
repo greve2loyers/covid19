@@ -123,10 +123,9 @@ header {
 	#sandwich:hover::after {
 		border-color: var(--header-hover);
 	}
-	#sandwich:focus {
-		visibility: hidden;
+	#sandwich:checked {
 	}
-	#sandwich:focus ~ #nav_menu {
+	#sandwich:checked ~ #nav_menu {
 		display: flex;
 	}
 	#nav_menu {
