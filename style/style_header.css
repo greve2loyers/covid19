@@ -8,7 +8,7 @@ header {
 	width: 40%;
 	margin-left: 10%;
 }
-#sandwich {
+.sandwich {
 	display: none;
 }
 #nav_menu {
@@ -87,8 +87,30 @@ header {
 	#header {
 		position: relative;
 	}
+	/*la boite qui contient le menu deroulant*/
+	#nav_menu {
+		display: flex;
+		position: absolute;
+		right: -10px;
+		top: 99%;
+		width: auto;
+		padding: 0px;
+		flex-direction: column;
+		background-color: var(--header-background);
+	}
+	/*reglages menus*/
+	#nav_menu > div {
+		display: none;
+		margin: 12px 0px 12px auto;
+	}
+	#nav_menu a {
+		text-align: right;
+	}
+	/*le bouton pour declencher le menu deroulant*/
+	/*invisible et qui prend toute la surface*/
 	#sandwich {
 		display: block;
+		opacity: 0;
 		position: absolute;
 		right: 10%;
 		top: 0px;
@@ -96,81 +118,73 @@ header {
 		height: 100%;
 		background-color: transparent;
 		border: none;
+	}
+	/*le dessin du sandwich*/
+	#header label.sandwich {
+		display: block;
+		position: absolute;
+		right: 10%;
+		top: 26px;
+		width: 26px;
+		height: 18px;
 		cursor: pointer;
 	}
-	#sandwich::before {
+	#header label.sandwich::before {
 		content: "";
 		position: absolute;
-		top: 26px;
+		top: 0px;
 		right: 0px;
-		width: 28px;
+		width: 100%;
 		height: calc(18px - 4px);
 		border-top: 2px solid var(--header-logo);
 		border-bottom: 2px solid var(--header-logo);
 	}
-	#sandwich::after {
+	#header label.sandwich::after {
 		content: "";
 		position: absolute;
-		top: 34px;
+		top: 8px;
 		right: 0px;
-		width: 28px;
-		height: 18px;
+		width: 100%;
+		height: 2px;
 		border-top: 2px solid var(--header-logo);
 	}
-	#sandwich:hover::before {
-		border-color: var(--header-hover);
-	}
-	#sandwich:hover::after {
-		border-color: var(--header-hover);
-	}
-	#sandwich:checked {
-	}
-	#sandwich:checked ~ #nav_menu {
-		display: flex;
-	}
-	#nav_menu {
-		display: none;
-		position: absolute;
-		right: -10px;
-		top: 99%;
-		width: auto;
-		padding: 10px;
-		flex-direction: column;
-		background-color: var(--header-background);
-	}
-	#nav_menu::before {
+	/*dessin de la petite croix*/
+	#sandwich:checked ~ label.sandwich::before {
 		content: "";
 		position: absolute;
-		right: 9px;
-		top: -35px;
+		top: 8px;
+		right: 0px;
 		width: 27px;
 		height: 1px;
 		background-color: var(--header-logo);
+		border-style: unset;
 		-ms-transform: rotate(35deg); /*IE 9*/
 		transform: rotate(35deg);
 	}
-	#nav_menu::after {
+	#sandwich:checked ~ label.sandwich::after {
 		content: "";
 		position: absolute;
-		right: 9px;
-		top:-35px;
+		top: 8px;
+		right: 0px;
 		width: 27px;
 		height: 1px;
 		background-color: var(--header-logo);
+		border-style: unset;
 		-ms-transform: rotate(-35deg); /*IE 9*/
 		transform: rotate(-35deg);
 	}
-	#nav_menu > div {
-		margin: 12px 0px 12px auto;
+	/*faire apparaitre le menu*/
+	#sandwich:checked ~ #nav_menu > div {
+		display: flex;
 	}
-	#nav_menu a {
-		text-align: right;
+	#sandwich:checked ~ #nav_menu {
+		padding: 10px;
 	}
 	/*ci dessous des regales pour les sous menus*/
 	/*mais ils sont annulés parce que ct pas ouf*/
 	#nav_menu div.submenu {
-		background-color: transparent;
 		display: none;
+		background-color: transparent;
 		position: relative;
 		left: auto;
 		top: auto;
@@ -181,8 +195,12 @@ header {
 	#nav_menu div.submenu .menu {
 		margin-right: 10px;
 	}
-	#nav_menu .menu:hover ~ .submenu {
-		display: none;
+	/*les couleurs au hover*/
+	#sandwich:hover::before {
+		border-color: var(--header-hover);
+	}
+	#sandwich:hover::after {
+		border-color: var(--header-hover);
 	}
 }
 
