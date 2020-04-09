@@ -124,7 +124,7 @@ header {
 		border-color: var(--header-hover);
 	}
 	#sandwich:focus {
-		display: none;
+		visibility: hidden;
 	}
 	#sandwich:focus ~ #nav_menu {
 		display: flex;
