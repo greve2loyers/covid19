@@ -176,14 +176,14 @@ header {
 	/*faire apparaitre le menu*/
 	#sandwich:checked ~ #nav_menu > div {
 		display: flex;
+		flex-direction: column;
 	}
 	#sandwich:checked ~ #nav_menu {
 		padding: 10px;
 	}
 	/*ci dessous des regales pour les sous menus*/
-	/*mais ils sont annulés parce que ct pas ouf*/
 	#nav_menu div.submenu {
-		display: none;
+		display: flex;
 		background-color: transparent;
 		position: relative;
 		left: auto;
@@ -192,8 +192,22 @@ header {
 		padding: unset;
 		min-width: auto;
 	}
+	#nav_menu > div .menu {
+		margin-right: 15px;
+	}
 	#nav_menu div.submenu .menu {
-		margin-right: 10px;
+		position: relative;
+		text-transform: lowercase;
+		margin-right: 15px;
+	}
+	#nav_menu > div > a::before {
+		content: "";
+		position: absolute;
+		bottom: 2px;
+		right: -15px;
+		width: 9px;
+		height: 9px;
+		background-color: var(--header-light);
 	}
 	/*les couleurs au hover*/
 	#sandwich:hover::before {
