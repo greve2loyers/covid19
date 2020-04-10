@@ -144,7 +144,7 @@ main {
 		left: 0px;
 		border: 1px solid red;
 	}
-	#left:focus::after {
+	#left:hover::after {
 		display: none;
 	}
 	#left h1#news {
