@@ -141,8 +141,8 @@ main {
 		width: 10px;
 		height: 10px;
 		top: 0px;
-		left: 0px;
-		border: 1px solid red;
+		right: 0px;
+		border: 1px solid green;
 	}
 	#left:hover::after {
 		display: none;
