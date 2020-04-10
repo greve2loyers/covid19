@@ -135,21 +135,9 @@ main {
 		margin: 20px 0px;
 		overflow: scroll;
 	}
-	#left::after {
-		content: "";
-		position: absolute;
-		width: 10px;
-		height: 10px;
-		top: 0px;
-		right: 0px;
-		border: 1px solid green;
-	}
-	#left:hover::after {
-		display: none;
-	}
 	#left h1#news {
 		margin: 10px;
-		width: 150px;
+		min-width: 120px;
 	}
 	#left h1#news::after {
 		display: none;
