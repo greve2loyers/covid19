@@ -12,6 +12,19 @@ article .vertical > * {
 	overflow-wrap: break-word;
 }
 /*reglage des textes*/
+article .vertical p.date {
+	font-size: 15px;
+	font-style: italic;
+	margin-left: 15px;
+	margin-bottom: -20px;
+	position: relative;
+}
+article .vertical p.date::before {
+	content: ">";
+	position: absolute;
+	left: -15px;
+	bottom: 0px;
+}
 article .vertical h1 {
 	font-size: 44px;
 	font-weight: 600;
