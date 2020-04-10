@@ -4,9 +4,14 @@ article {
 	margin: 100px 0px 100px 10%;
 	width: 80%;
 }
-article .vertical h1, article .vertical p {
-	margin-left: 0px;
+article .vertical {
+	width: 100%;
 }
+article .vertical > * {
+	margin: 20px 0px;
+	overflow-wrap: break-word;
+}
+/*reglage des textes*/
 article .vertical h1 {
 	font-size: 44px;
 	font-weight: 600;
@@ -19,7 +24,6 @@ article .vertical h2 {
 	font-size: 34px;
 	font-weight: 600;
 	letter-spacing: 1px;
-	margin: 20px 0px;
 	color: var(--article-medium);
 }
 article .vertical p {
@@ -47,6 +51,77 @@ article .vertical li::before {
 	height: 8px;
 	background-color: var(--article-little);
 }
+/*reglage des videos*/
+article .video-container {
+	position: relative;
+	padding-bottom: 55%;
+	height: 0px;
+	width: 100%;
+	overflow: hidden;
+}
+article .video-container .video {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+/*reglages des photos*/
+article img.photo {
+	max-height: 100%;
+	max-width: 100%;
+	margin: 20px auto;
+}
+/*reglages des albums photos*/
+article .photo-album {
+	display: grid;
+	grid-gap: 1vw;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	grid-template-rows: repeat(auto-fill, 150px);
+	width: 100%;
+}
+article .image-box {
+	position: relative;
+}
+article .image-box .mini-photo {
+	object-fit: cover;
+	width: 100%;
+	height: 150px;
+	cursor: pointer;
+}
+article .image-box input {
+	display: none;
+}
+article .image-box .zoom-box {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+article .image-box input:checked + .zoom-box {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100vw;
+	height: 100vh;
+	z-index: 2;
+	background-color: rgba(150, 150, 150, 0.8);
+}
+article .image-box .zoom-photo {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+	max-width: 90%;
+	max-height: 90%;
+	z-index: 2;
+	display: none;
+}
+article .image-box input:checked ~ .zoom-photo {
+	display: block;
+}
 /*ARTICLES*/
 /*///////////////////////////////////*/
 
@@ -57,13 +132,13 @@ article .vertical li::before {
 /*ARTICLES EN STRIP*/
 .strip article {
 	background-color: var(--strip-background1);
-	width: calc(100% - 10px);
+	width: 100%;
 	margin: 0px;
 	padding: 100px 0px;
-	padding-left: 10px;
 }
 .strip article > div {
-	padding: auto 10px;
+	padding: 0px 10px;
+	width: auto;
 }
 .strip article h1 {
 	color: var(--strip-textcolor1);

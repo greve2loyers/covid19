@@ -1,4 +1,7 @@
-
+@import url(../style/header.css);
+@import url(../style/footer.css);
+@import url(../style/aside.css);
+@import url(../style/articles.css);
 
 /*/////////////////////////////////////////////*/
 /*GENERAL SETTINGS*/
@@ -211,3 +214,4 @@ em {
 }
 /*FONTS*/
 /*////////////////////////////////////////////////////*/
+

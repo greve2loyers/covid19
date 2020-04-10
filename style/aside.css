@@ -8,7 +8,7 @@ main {
 	height: 100%;
 	margin: 140px 20px;
 }
-#articles_accueil {
+#articles {
 	width: 60%;
 	margin-left: 0px;
 }
@@ -59,7 +59,7 @@ main {
 	#sommaire {
 		display: none;
 	}
-	#articles_accueil {
-		width: 90%;
+	#articles {
+		width: 100%;
 	}
 }
