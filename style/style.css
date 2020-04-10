@@ -113,14 +113,19 @@ blockquote, q {
 
 	--strip-textcolor1:		 	rgb(170, 50,  40);
 	--strip-background1:	 	rgb(200, 180, 170);
-	--strip-textcolor2:		 	rgb(17, 50,  40);
-	--strip-background2:	 	rgb(16, 125, 100);
+	--strip-textcolor2:		 	rgb(17,  50,  40);
+	--strip-background2:	 	rgb(16,  125, 100);
 	
+	--news: 					rgb(123, 213, 73);
+	--news-info:				rgb(23,  113, 173);
+	--news-title:				rgb(73,  173, 183);
+	--news-content:				rgb(173, 173, 173);
+
 	--article-big: 				rgb(74,  74,  74);
 	--article-medium: 			rgb(104, 104, 104);
 	--article-little: 			rgb(124, 124, 124);
 	--article-em: 				rgb(235, 102, 27);
-	--article-link:				rgb(12, 174, 73);
+	--article-link:				rgb(12,  174, 73);
 
 	--sommaire-frame: 			rgb(220, 220, 220);
 	--sommaire-title:			rgb(74,  74,  74);

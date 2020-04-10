@@ -3,9 +3,8 @@
 main {
 	width: 100%;
 }
-#sommaire {
-	width: 200px;
-	height: 100%;
+#left {
+	width: 224px;
 	margin: 140px 20px;
 }
 #articles {
@@ -19,10 +18,72 @@ main {
 
 
 
+/*////////////////////////////////////////////*/
+/*ORGANISATION LEFT*/
+#left h1#news {
+	text-transform: uppercase;
+	font-size: 25px;
+	margin: 10px 0px 20px 0px;
+	color: var(--news);
+	position: relative;
+}
+#left h1#news::after {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0px;
+	width: 100%;
+	height: 2px;
+	background-color: var(--sommaire-frame);
+}
+#left a.breakingnews {
+	position: relative;
+	margin: 10px 0px;
+}
+#left a.breakingnews * {
+	cursor: pointer;
+}
+#left a.breakingnews .news_source {
+	font-size: 18px;
+	color: var(--news-info);
+	text-align: right;
+}
+#left a.breakingnews .news_date {
+	font-size: 12px;
+	color: var(--news-info);
+	text-align: right;
+}
+#left a.breakingnews .news_title {
+	font-size: 20px;
+	color: var(--news-title);
+	margin-bottom: 10px;
+}
+#left a.breakingnews .news_content {
+	color: var(--news-content);
+	margin-bottom: 10px;
+}
+#left a.breakingnews::after {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0px;
+	width: 100%;
+	height: 2px;
+	background-color: var(--sommaire-frame);
+}
+/*ORGANISATION LEFT*/
+/*////////////////////////////////////////////*/
+
+
+
+
+
 
 /*////////////////////////////////////////////*/
 /*SOMMAIRE*/
 #sommaire {
+	margin: 0px;
+	margin-bottom: 20px;
 	padding: 10px;
 	border: 2px solid var(--sommaire-frame);
 }
@@ -57,7 +118,7 @@ main {
 
 
 @media only screen and (max-width: 900px) {
-	#sommaire {
+	#left {
 		display: none;
 	}
 	#articles {
