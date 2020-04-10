@@ -131,15 +131,24 @@ main {
 		position: relative;
 		flex-direction: row;
 		max-height: 200px;
-		width: calc(100% - 40px);
+		width: calc(100%);
+		margin: 20px 0px;
 		overflow: scroll;
-		margin: 20px;
 	}
 	#left::after {
+		content: "";
+		position: absolute;
+		width: 10px;
+		height: 10px;
+		top: 0px;
+		left: 0px;
+		border: 1px solid red;
+	}
+	#left:focus::after {
 		display: none;
 	}
 	#left h1#news {
-		margin-right: 10px;
+		margin: 10px;
 		width: 150px;
 	}
 	#left h1#news::after {
