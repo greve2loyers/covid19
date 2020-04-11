@@ -20,14 +20,11 @@ main {
 
 /*////////////////////////////////////////////*/
 /*ORGANISATION LEFT*/
-#left h1#news {
-	text-transform: uppercase;
-	font-size: 25px;
+#left #news {
 	margin: 10px 0px 20px 0px;
-	color: var(--news);
 	position: relative;
 }
-#left h1#news::after {
+#left #news::after {
 	content: "";
 	position: absolute;
 	bottom: -10px;
@@ -35,6 +32,18 @@ main {
 	width: 100%;
 	height: 2px;
 	background-color: var(--sommaire-frame);
+}
+#left #news h1 {
+	text-transform: uppercase;
+	font-size: 25px;
+	color: var(--news);
+	text-align: right;
+}
+#left #news p {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: var(--news);
+	margin-top: 10px;
 }
 #left a.breakingnews {
 	position: relative;
@@ -135,11 +144,11 @@ main {
 		margin: 20px 0px;
 		overflow: scroll;
 	}
-	#left h1#news {
+	#left #news {
 		margin: 10px;
 		min-width: 200px;
 	}
-	#left h1#news::after {
+	#left #news::after {
 		display: none;
 	}
 	#left a.breakingnews::after {
