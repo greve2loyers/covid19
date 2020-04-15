@@ -45,21 +45,25 @@ article .vertical p {
 	line-height: 1.9;
 	color: var(--article-little);
 }
-article .vertical ul {
+article .vertical ul, article .vertical ol {
 	margin: 10px 0px;
 }
-article .vertical li {
+article .vertical ul li, article .vertical ol li {
 	font-size: 22px;
 	line-height: 1.9;
 	color: var(--article-little);
 	position: relative;
 	margin-left: 20px;
+	display: list-item;
 }
-article .vertical li::before {
+article .vertical ol li {
+	list-style: decimal;
+}
+article .vertical ul li::before {
 	content: "";
 	position: absolute;
 	left: -20px;
-	top: calc(50% - 4px);
+	top: 17px;
 	width: 8px;
 	height: 8px;
 	background-color: var(--article-little);
