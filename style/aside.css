@@ -124,6 +124,7 @@ main {
 		margin: 0px 0px auto 0px;
 		padding-right: 150px;
 		background-color: transparent;
+		border: none;
 	}
 	#left #plusdactu::before {
 		content: "";
