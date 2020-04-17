@@ -198,14 +198,17 @@ h1, h2, h3, h4, h5, h6 {
 a, p, li {
 	font-family: 'louisgeorge', 'cabrion', sans-serif;
 }
-a {
+a, a > * {
 	cursor: pointer;
 }
 article a {
 	color: var(--article-link);
 }
-article b, article em, article i, article a {
+li *, article b, article em, article i, article a, article var {
 	display: inline;
+}
+p, var {
+	color: var(--article-little);
 }
 i {
 	font-style: italic;

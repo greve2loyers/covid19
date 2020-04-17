@@ -3,6 +3,7 @@
 header {
 	height: 70px;
 	background-color: var(--header-background);
+	z-index: 1;
 }
 #name {
 	width: 40%;
