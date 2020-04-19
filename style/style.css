@@ -40,7 +40,7 @@ main {
 
 /*/////////////////////////////////////////////*/
 /*RESET*/
-*:not(script) {
+body *:not(script) {
 	display: block;
 }
 html, body, div, span, applet, object, iframe,
