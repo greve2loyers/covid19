@@ -204,7 +204,8 @@ a, a > * {
 article a {
 	color: var(--article-link);
 }
-li *, article b, article em, article i, article a, article var {
+li *, li p, article b, article em,
+article i, article a, article var {
 	display: inline;
 }
 p, var {
