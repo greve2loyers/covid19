@@ -56,7 +56,7 @@ article .vertical ul li, article .vertical ol li {
 	margin-left: 20px;
 	display: list-item;
 }
-article .vertical ol li {
+article .vertical ol > li {
 	list-style: decimal;
 }
 article .vertical ul li::before {
