@@ -1,9 +1,16 @@
 /*////////////////////////////////////////////////////*/
 /*HEADER*/
 header {
+	position: relative;
 	height: 70px;
 	background-color: var(--header-background);
 	z-index: 1;
+}
+#dolo {
+	position: absolute;
+	top: 0px;
+	right: left;
+	opacity: 0;
 }
 #name {
 	width: 40%;
