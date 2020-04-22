@@ -1,0 +1,63 @@
+/*///////////////////////////////////*/
+/*GRID TEMPLATE*/
+.article.news {
+	width: 80%;
+}
+.news_container {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-rows: repeat(auto-fill, auto);
+	width: 100%;
+}
+/*GRID TEMPLATE*/
+/*///////////////////////////////////*/
+
+/*///////////////////////////////////*/
+/*BREAKINGNEWS*/
+a.breakingnews {
+	position: relative;
+	margin: 10px 0px;
+}
+a.breakingnews * {
+	cursor: pointer;
+}
+a.breakingnews .news_source {
+	font-size: 18px;
+	color: var(--news-info);
+	text-align: right;
+	line-height: 1;
+	margin: 0px;
+}
+a.breakingnews .news_date {
+	font-size: 12px;
+	color: var(--news-info);
+	text-align: right;
+	line-height: 1;
+	margin: 0px;
+}
+a.breakingnews .news_title {
+	font-size: 18px;
+	color: var(--news-title);
+	margin-bottom: 10px;
+	text-transform: none;
+	font-weight: 300;
+	letter-spacing: normal;
+}
+a.breakingnews .news_content {
+	color: var(--news-content);
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 1;
+}
+a.breakingnews::after {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0px;
+	width: 100%;
+	height: 2px;
+	background-color: var(--sommaire-frame);
+}
+/*BREAKINGNEWS*/
+/*///////////////////////////////////*/
