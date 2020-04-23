@@ -143,6 +143,9 @@ article .image-box .zoom-photo {
 article .image-box input:checked ~ .zoom-photo {
 	display: block;
 }
+article .text-img {
+	margin: 0px 0px 0px auto;
+}
 /*ARTICLES*/
 /*///////////////////////////////////*/
 
