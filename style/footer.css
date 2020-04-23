@@ -28,7 +28,7 @@ footer h1 {
 	letter-spacing: 1px;
 	color: var(--footer-title);
 }
-footer a {
+footer a, footer p {
 	font-size: 15px;
 	color: var(--footer-text);
 }
@@ -46,7 +46,19 @@ footer a {
 		width: auto;
 	}
 	#content_footer .section {
-		margin: 50px auto;
+		margin: 30px auto;
 		margin-left: 0px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	footer .section > * {
+		margin-bottom: 10px;
+	}
+	footer h1 {
+		font-size: 18px;
+		letter-spacing: normal;
+	}
+	footer a, footer p {
+		font-size: 12px;
 	}
 }

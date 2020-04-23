@@ -177,6 +177,28 @@ article .image-box input:checked ~ .zoom-photo {
 	.strip article h1 {
 		font-size: 40px;
 	}
+	article .vertical p.date {
+		font-size: 12px;
+	}
+	article .vertical h1 {
+		font-size: 22px;
+	}
+	article .vertical h2 {
+		font-size: 20px;
+	}
+	article .vertical p {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	article .vertical ul li, article .vertical ol li {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+	article .vertical ul li::before {
+		top: 9px;
+		width: 6px;
+		height: 6px;
+	}
 }
 
 @media only screen and (max-width: 300px) {
