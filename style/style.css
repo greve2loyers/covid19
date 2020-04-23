@@ -126,6 +126,7 @@ blockquote, q {
 	--article-big: 				rgb(74,  74,  74);
 	--article-medium: 			rgb(104, 104, 104);
 	--article-little: 			rgb(124, 124, 124);
+	--article-light: 			rgb(164, 164, 164);
 	--article-em: 				rgb(235, 102, 27);
 	--article-link:				rgb(12,  174, 73);
 

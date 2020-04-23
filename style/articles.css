@@ -63,10 +63,14 @@ article .vertical ul li::before {
 	content: "";
 	position: absolute;
 	left: -20px;
-	top: 17px;
+	top: 19px;
 	width: 8px;
 	height: 8px;
 	background-color: var(--article-little);
+}
+article .vertical ul.circle li::before {
+	border-radius: 50%;
+	background-color: var(--article-light);
 }
 /*reglage des videos*/
 article .video-container {
@@ -193,11 +197,16 @@ article .image-box input:checked ~ .zoom-photo {
 	article .vertical ul li, article .vertical ol li {
 		font-size: 16px;
 		line-height: 1.5;
+		margin-left: 12px;
 	}
 	article .vertical ul li::before {
-		top: 9px;
-		width: 6px;
-		height: 6px;
+		top: 11px;
+		width: 5px;
+		height: 5px;
+		left: -12px;
+	}
+	article .vertical ul, article .vertical ol {
+		margin-top: 0px;
 	}
 }
 
