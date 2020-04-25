@@ -110,7 +110,7 @@ main {
 	#sommaire {
 		position: relative;
 		width: 80%;
-		margin: 100px auto 0px auto;
+		margin: 0px auto 0px auto;
 	}
 	#breakingnews_container {
 		position: relative;
@@ -119,7 +119,8 @@ main {
 		flex-direction: row;
 		max-height: 100%;
 		width: calc(100%);
-		margin: 20px 0px;
+		margin: 20px 0px 0px 0px;
+		padding-bottom: 100px;
 		overflow: scroll;
 	}
 	#breakingnews_container #news {
