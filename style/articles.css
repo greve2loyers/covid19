@@ -199,6 +199,9 @@ article .text-img {
 
 
 @media only screen and (max-width: 900px) {
+	.strip .bandeau h1 {
+		font-size: 30px;
+	}
 	article .vertical p.date {
 		font-size: 12px;
 	}
@@ -225,12 +228,6 @@ article .text-img {
 	}
 	article .vertical ul, article .vertical ol {
 		margin-top: 0px;
-	}
-}
-
-@media only screen and (max-width: 1000px) {
-	.strip .bandeau h1 {
-		font-size: 30px;
 	}
 }
 @media only screen and (max-width: 500px) {

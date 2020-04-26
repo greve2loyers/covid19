@@ -124,7 +124,7 @@ main {
 		overflow: scroll;
 	}
 	#breakingnews_container #news {
-		margin: 10px;
+		margin: 0px 10px;
 		min-width: 200px;
 	}
 	#breakingnews_container #news::after {
@@ -162,5 +162,17 @@ main {
 	}
 	#breakingnews_container a.breakingnews .news_info {
 		text-align: left;
+	}
+	#breakingnews_container #news h1 {
+		font-size: 16px;
+	}
+	#breakingnews_container h1.news_title {
+		font-size: 14px;
+	}
+	#breakingnews_container p.news_date {
+		font-size: 10px;
+	}
+	#breakingnews_container p.news_source {
+		font-size: 12px;
 	}
 }
