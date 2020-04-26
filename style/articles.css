@@ -168,18 +168,29 @@ article .text-img {
 	margin: 0px;
 	padding: 100px 0px;
 }
-.strip article > div {
+.strip article .bandeau {
 	padding: 0px 10px;
 	width: auto;
 }
-.strip article h1 {
-	color: var(--strip-textcolor1);
+.strip .bandeau h1 {
 	text-transform: uppercase;
-	font-size: 70px;
+	font-size: 50px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	line-height: 1.5em;
 	margin: 0px;
+}
+.strip .bandeau .color1 {
+	color: var(--strip-textcolor1);
+}
+.strip .bandeau .color2 {
+	color: var(--strip-textcolor2);
+}
+.strip .bandeau .color3 {
+	color: var(--strip-textcolor3);
+}
+.strip .bandeau .color4 {
+	color: var(--strip-textcolor4);
 }
 /*ARTICLES EN STRIP*/
 /*///////////////////////////////////*/
@@ -188,9 +199,6 @@ article .text-img {
 
 
 @media only screen and (max-width: 900px) {
-	.strip article h1 {
-		font-size: 40px;
-	}
 	article .vertical p.date {
 		font-size: 12px;
 	}
@@ -220,8 +228,13 @@ article .text-img {
 	}
 }
 
-@media only screen and (max-width: 300px) {
-	.strip article h1 {
+@media only screen and (max-width: 1000px) {
+	.strip .bandeau h1 {
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.strip .bandeau h1 {
 		font-size: 20px;
 	}
 }

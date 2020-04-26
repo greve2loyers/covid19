@@ -114,10 +114,15 @@ blockquote, q {
 	--footer-text:				rgb(174, 174, 174);
 	--footer-background: 		rgb(22,  22,  22);
 
-	--strip-textcolor1:		 	rgb(170, 50,  40);
-	--strip-background1:	 	rgb(200, 180, 170);
-	--strip-textcolor2:		 	rgb(17,  50,  40);
+	--strip-background3:	 	rgb(200, 180, 170);
 	--strip-background2:	 	rgb(16,  125, 100);
+	--strip-background1:	 	rgb(245,  204, 232);
+	--strip-textcolor0:		 	rgb(170, 50,  40);
+	--strip-textcolor0:		 	rgb(17,  50,  40);
+	--strip-textcolor1:		 	rgb(204, 88,  3);
+	--strip-textcolor2:		 	rgb(186,  183,  0);
+	--strip-textcolor3:		 	rgb(157,  105,  163);
+	--strip-textcolor4:		 	rgb(52,  150,  55);
 	
 	--news: 					rgb(123, 213, 73);
 	--news-info:				rgb(23,  113, 173);
