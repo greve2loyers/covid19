@@ -138,6 +138,7 @@ blockquote, q {
 	--article-link:				rgb(12,  174, 73);
 
 	--sommaire-frame: 			rgb(220, 220, 220);
+	--sommaire-menu: 			rgb(200, 90, 170);
 	--sommaire-title:			rgb(74,  74,  74);
 	--sommaire-link:			rgb(14,  14,  14);
 }

@@ -9,7 +9,7 @@ main {
 	top: 300px;
 	left: 0px;
 	width: 224px;
-	margin: 140px 20px;
+	margin: 220px 20px;
 }
 #sommaire {
 	width: 224px;
@@ -45,9 +45,10 @@ main {
 	height: 2px;
 	background-color: var(--sommaire-frame);
 }
-#breakingnews_container #news h1 {
+#breakingnews_container #news a {
 	text-transform: uppercase;
 	font-size: 25px;
+	font-weight: 600;
 	color: var(--news);
 	text-align: right;
 }
@@ -60,6 +61,7 @@ main {
 #breakingnews_container #plusdactu {
 	margin: 20px 0px 20px auto;
 	padding: 10px;
+	color: var(--news);
 	border: 2px solid var(--sommaire-frame);
 }
 /*ORGANISATION BREAKINGNEWS*/
@@ -72,6 +74,11 @@ main {
 /*SOMMAIRE*/
 #sommaire * {
 	margin: 5px 0px;
+}
+#sommaire h1 {
+	font-weight: 600;
+	color: var(--sommaire-menu);
+	margin-bottom: 10px;
 }
 #sommaire p {
 	font-weight: 600;
@@ -110,7 +117,10 @@ main {
 	#sommaire {
 		position: relative;
 		width: 80%;
-		margin: 0px auto 0px auto;
+		margin: 100px auto 0px auto;
+	}
+	.accueil #sommaire {
+		margin-top: 0px;
 	}
 	#breakingnews_container {
 		position: relative;
@@ -124,7 +134,7 @@ main {
 		overflow: scroll;
 	}
 	#breakingnews_container #news {
-		margin: 0px 10px;
+		margin: 5px 10px;
 		min-width: 200px;
 	}
 	#breakingnews_container #news::after {
@@ -132,7 +142,9 @@ main {
 	}
 	#breakingnews_container #plusdactu {
 		position: relative;
-		margin: 0px 0px auto 0px;
+		font-size: 12px;
+		font-weight: 600;
+		margin: auto 0px 10px 10px;
 		padding-right: 150px;
 		background-color: transparent;
 		border: none;
@@ -163,7 +175,7 @@ main {
 	#breakingnews_container a.breakingnews .news_info {
 		text-align: left;
 	}
-	#breakingnews_container #news h1 {
+	#breakingnews_container #news a {
 		font-size: 16px;
 	}
 	#breakingnews_container h1.news_title {
