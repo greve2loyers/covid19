@@ -96,7 +96,7 @@ article img.photo {
 }
 article img.photo.dim {
 	max-height: 100%;
-	max-width: 300px;
+	max-width: 400px;
 	width: 100%;
 	margin: 20px auto;
 }
