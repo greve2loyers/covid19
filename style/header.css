@@ -136,6 +136,9 @@ header {
 	#nav_menu a {
 		text-align: right;
 	}
+	#nav_menu .submenu a {
+		color: var(--header-logo);
+	}
 	/*apparence du menu une fois déroulé*/
 	/*////////////////////////////////////////////////////*/
 

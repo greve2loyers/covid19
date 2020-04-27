@@ -104,8 +104,8 @@ blockquote, q {
 /*/////////////////////////////////////////////*/
 /*GLOBAL VARIABLE COLORS*/
 :root {
-	--header-logo:				rgb(74,  74,  74);
 	--header-link:				rgb(14,  14,  14);
+	--header-logo:				rgb(74,  74,  74);
 	--header-hover:				rgb(114, 114, 114);
 	--header-light:				rgb(194, 194, 194);
 	--header-background: 		rgb(250, 250, 250);
