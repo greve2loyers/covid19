@@ -198,6 +198,80 @@ article .text-img {
 
 
 
+
+/*///////////////////////////////////*/
+/*donnees sociologiques*/
+.socio {
+	padding: 20px;
+}
+div.socio p {
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 1;
+}
+.socio.color1 {
+	background-color: var(--socio-bak1);
+}
+.socio.color1 .first {
+	color: var(--socio-first1);
+}
+.socio.color1 .second {
+	color: var(--socio-second1);
+}
+.socio.color2 {
+	background-color: var(--socio-bak2);
+}
+.socio.color2 .first {
+	color: var(--socio-first2);
+}
+.socio.color2 .second {
+	color: var(--socio-second2);
+}
+.socio.color3 {
+	background-color: var(--socio-bak3);
+}
+.socio.color3 .first {
+	color: var(--socio-first3);
+}
+.socio.color3 .second {
+	color: var(--socio-second3);
+}
+.socio.color4 {
+	background-color: var(--socio-bak4);
+}
+.socio.color4 .first {
+	color: var(--socio-first4);
+}
+.socio.color4 .second {
+	color: var(--socio-second4);
+}
+.socio.color5 {
+	background-color: var(--socio-bak5);
+}
+.socio.color5 .first {
+	color: var(--socio-first5);
+}
+.socio.color5 .second {
+	color: var(--socio-second5);
+}
+.socio.color6 {
+	background-color: var(--socio-bak6);
+}
+.socio.color6 .first {
+	color: var(--socio-first6);
+}
+.socio.color6 .second {
+	color: var(--socio-second6);
+}
+/*donnees sociologiques*/
+/*///////////////////////////////////*/
+
+
+
+
+
+
+
 @media only screen and (max-width: 900px) {
 	.strip .bandeau h1 {
 		font-size: 30px;

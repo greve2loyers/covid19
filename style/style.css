@@ -138,9 +138,33 @@ blockquote, q {
 	--article-link:				rgb(12,  174, 73);
 
 	--sommaire-frame: 			rgb(220, 220, 220);
-	--sommaire-menu: 			rgb(200, 90, 170);
+	--sommaire-menu: 			rgb(200, 90,  170);
 	--sommaire-title:			rgb(74,  74,  74);
 	--sommaire-link:			rgb(14,  14,  14);
+
+	--socio-bak1: 				rgb(114, 114, 214);
+	--socio-first1: 			rgb(14,  14,  114);
+	--socio-second1: 			rgb(114, 14,  114);
+
+	--socio-bak2: 				rgb(114, 214, 114);
+	--socio-first2: 			rgb(14,  114, 14);
+	--socio-second2: 			rgb(114, 114, 14);
+
+	--socio-bak3: 				rgb(130, 230, 230);
+	--socio-first3: 			rgb(30,  130, 130 );
+	--socio-second3: 			rgb(130, 130, 130);
+
+	--socio-bak4: 				rgb(207, 107, 107);
+	--socio-first4: 			rgb(107, 7,   7);
+	--socio-second4: 			rgb(107, 57,   57);
+
+	--socio-bak5: 				rgb(230, 230, 130);
+	--socio-first5: 			rgb(130, 130, 30);
+	--socio-second5: 			rgb(230, 130, 30);
+
+	--socio-bak6: 				rgb(250, 150, 250);
+	--socio-first6: 			rgb(150, 50,  150);
+	--socio-second6: 			rgb(250, 50,  150);
 }
 /*GLOBAL VARIABLE COLORS*/
 /*/////////////////////////////////////////////*/
