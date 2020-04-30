@@ -39,6 +39,25 @@ article .vertical h2 {
 	letter-spacing: 1px;
 	color: var(--article-medium);
 }
+article .vertical h3 {
+	position: relative;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color: var(--article-medium);
+}
+article .vertical h3::after {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0px;
+	width: 100%;
+	height: 2px;
+	background-color: var(--article-medium);
+}
 article .vertical p {
 	font-size: 22px;
 	margin: 10px 0px;
@@ -154,6 +173,29 @@ article .text-img {
 	margin: 0px 0px 0px auto;
 }
 /*ARTICLES*/
+/*///////////////////////////////////*/
+
+
+
+
+
+/*///////////////////////////////////*/
+/*JOURNAL*/
+.journal article p {
+	line-height: 1.5;
+}
+.journal article .microbe {
+	font-size: 16px;
+}
+.journal article #article_sources {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+.journal article #article_sources a {
+	margin-bottom: 10px;
+}
+/*JOURNAL*/
 /*///////////////////////////////////*/
 
 
@@ -288,6 +330,9 @@ div.socio p {
 	article .vertical p {
 		font-size: 16px;
 		line-height: 1.5;
+	}
+	.journal article .microbe {
+		font-size: 12px;
 	}
 	article .vertical ul li, article .vertical ol li {
 		font-size: 16px;
