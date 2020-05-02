@@ -305,6 +305,15 @@ div.socio p {
 .socio.color6 .second {
 	color: var(--socio-second6);
 }
+.socio.color7 {
+	background-color: var(--socio-bak7);
+}
+.socio.color7 .first {
+	color: var(--socio-first7);
+}
+.socio.color7 .second {
+	color: var(--socio-second7);
+}
 /*donnees sociologiques*/
 /*///////////////////////////////////*/
 

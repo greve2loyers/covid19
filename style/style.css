@@ -167,6 +167,10 @@ blockquote, q {
 	--socio-bak6: 				rgb(250, 150, 250);
 	--socio-first6: 			rgb(150, 50,  150);
 	--socio-second6: 			rgb(250, 50,  150);
+
+	--socio-bak7: 				rgb(150, 150, 250);
+	--socio-first7: 			rgb(50,  50,  150);
+	--socio-second7: 			rgb(150, 50,  150);
 }
 /*GLOBAL VARIABLE COLORS*/
 /*/////////////////////////////////////////////*/
