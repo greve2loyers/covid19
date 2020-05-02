@@ -80,6 +80,24 @@ main {
 	color: var(--sommaire-menu);
 	margin-bottom: 10px;
 }
+#sommaire a.backtomenu {
+	position: relative;
+	color: var(--sommaire-backmenu);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+#sommaire a.backtomenu::before {
+	content: "";
+	position: absolute;
+	left: -20px;
+	bottom: 2px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10px 5px;
+	border-color: transparent transparent var(--sommaire-backmenu-light) transparent;
+}
 #sommaire p {
 	font-weight: 600;
 	color: var(--sommaire-title);
