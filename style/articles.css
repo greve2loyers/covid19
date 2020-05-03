@@ -172,6 +172,9 @@ article .image-box input:checked ~ .zoom-photo {
 article .text-img {
 	margin: 0px 0px 0px auto;
 }
+iframe.map {
+	margin-bottom: 20px;
+}
 /*ARTICLES*/
 /*///////////////////////////////////*/
 
