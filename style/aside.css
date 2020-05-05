@@ -71,6 +71,7 @@ main {
 	color: var(--news-title);
 }
 #map_container iframe.map {
+	position: relative;
 	margin-bottom: -16px;
 }
 #map_container a#map_link {
