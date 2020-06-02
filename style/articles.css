@@ -207,6 +207,34 @@ iframe.map {
 
 
 
+
+
+/*///////////////////////////////////*/
+/*LIENS EN BOUTONS*/
+.linkbutton_wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.linkbutton {
+	border: 1px solid var(--article-baklink);
+	background-color: var(--article-baklink);
+	margin: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	color: var(--article-ultralight);
+	font-weight: 600;
+}
+/*LIENS EN BOUTONS*/
+/*///////////////////////////////////*/
+
+
+
+
+
+
+
+
 /*///////////////////////////////////*/
 /*LISTE ARTICLES*/
 div.list_articles {

@@ -6,9 +6,10 @@ main {
 }
 #breakingnews_container {
 	position: absolute;
-	top: 980px;
+	top: 390px;
 	left: 0px;
 	width: 224px;
+	height: auto;
 	margin: 20px 20px;
 }
 #sommaire {
@@ -26,14 +27,6 @@ main {
 	margin: 20px;
 	overflow: hidden;
 }
-#dal_petition {
-	position: absolute;
-	top: 510px;
-	left: 0px;
-	width: 224px;
-	margin: 20px;
-	overflow: hidden;
-}
 #articles {
 	width: 60%;
 	margin-left: 0px;
@@ -42,21 +35,6 @@ main {
 /*ORGANISATION GLOBALE*/
 /*////////////////////////////////////////////*/
 
-
-
-
-
-
-
-
-/*////////////////////////////////////////////*/
-/*LA PETITION DU DAL*/
-#dal_petition h1 {
-	color: var(--news-title);
-	margin-bottom: 10px;
-}
-/*LA PETITION DU DAL*/
-/*////////////////////////////////////////////*/
 
 
 
@@ -265,19 +243,6 @@ main {
 	#breakingnews_container p.news_source {
 		font-size: 12px;
 	}
-
-	/*////////////////////////////////////////////*/
-	/*APPEL DU DAL*/
-	#dal_petition {
-		position: relative;
-		top: auto;
-		left: auto;
-		width: 80%;
-		margin: 70px auto;
-		margin-bottom: 0px;
-	}
-	/*APPEL DU DAL*/
-	/*////////////////////////////////////////////*/
 
 	/*////////////////////////////////////////////*/
 	/*CARTE DES GREVES*/
