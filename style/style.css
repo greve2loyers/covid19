@@ -137,7 +137,9 @@ blockquote, q {
 	--article-ultralight: 		rgb(224, 224, 224);
 	--article-em: 				rgb(235, 102, 27);
 	--article-link:				rgb(12,  174, 73);
-	--article-baklink:			rgb(152, 94, 53);
+	--article-baklink:			rgb(172, 114, 73);
+	--article-baklink:			rgb(172, 114, 203);
+	--article-baklink:			rgb(102, 124, 183);
 
 	--sommaire-frame: 			rgb(220, 220, 220);
 	--sommaire-menu: 			rgb(200, 90,  170);
