@@ -182,6 +182,65 @@ iframe.map {
 
 
 
+
+
+
+/*///////////////////////////////////*/
+/*ARTICLES LOYERS*/
+/*couleur spéciale pour les articles sur les loyers*/
+.breakingnews.loyers .news_title,
+.breakingnews.loyers .news_info {
+	color: var(--news-loyers);
+}
+/*afficher [loyers] en bas à gauche*/
+.breakingnews.loyers .news_content {
+	position: relative;
+}
+.breakingnews.loyers .news_content::after {
+	content: "[loyers]";
+	position: absolute;
+	bottom: -40px;
+	left: 0px;
+	color: var(--news-loyers);
+}
+/*bouton afficher article loyers*/
+/*cacher input*/
+input#show_loyers {
+	display: none;
+}
+/*styliser label*/
+label#label_loyer {
+	margin-left: 30px;
+	position: relative;
+}
+label#label_loyer::before {
+	content: "";
+	position: absolute;
+	left: -30px;
+	top: calc(50% - 5px);
+	width: 10px;
+	height: 10px;
+	border: 2px solid var(--article-light);
+}
+/*quand input checked*/
+input#show_loyers:checked ~ label#label_loyer::before {
+	border-color: var(--article-ultralight);
+	background-color: var(--article-light);
+}
+/*n'afficher que les articles sur les loyers*/
+#show_loyers {
+	width: 10px;
+}
+#show_loyers:checked ~ .news_container .breakingnews:not(.loyers) {
+	display: none;
+}
+/*ARTICLES LOYERS*/
+/*///////////////////////////////////*/
+
+
+
+
+
 /*///////////////////////////////////*/
 /*JOURNAL*/
 .journal article p {
