@@ -199,7 +199,8 @@ iframe.map {
 .breakingnews.loyers .news_content::after {
 	content: "[loyers]";
 	position: absolute;
-	bottom: -40px;
+	font-size: 14px;
+	bottom: -20px;
 	left: 0px;
 	color: var(--news-loyers);
 }
