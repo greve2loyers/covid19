@@ -200,7 +200,7 @@ iframe.map {
 	content: "[loyers]";
 	position: absolute;
 	font-size: 14px;
-	bottom: -20px;
+	bottom: -21px;
 	left: 0px;
 	color: var(--news-loyers);
 }
