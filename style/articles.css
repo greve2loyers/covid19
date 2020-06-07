@@ -91,6 +91,9 @@ article .vertical ul.circle li::before {
 	border-radius: 50%;
 	background-color: var(--article-light);
 }
+article .vertical li.nodot::before {
+	display: none;
+}
 /*reglage des videos*/
 article .video-container {
 	position: relative;
