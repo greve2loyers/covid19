@@ -61,7 +61,7 @@ article .vertical h3::after {
 article .vertical p {
 	font-size: 22px;
 	margin: 10px 0px;
-	line-height: 1.9;
+	line-height: 1.3;
 	color: var(--article-little);
 }
 article .vertical ul, article .vertical ol {
@@ -69,7 +69,7 @@ article .vertical ul, article .vertical ol {
 }
 article .vertical ul li, article .vertical ol li {
 	font-size: 22px;
-	line-height: 1.9;
+	line-height: 1.3;
 	color: var(--article-little);
 	position: relative;
 	margin-left: 20px;
@@ -82,7 +82,7 @@ article .vertical ul li::before {
 	content: "";
 	position: absolute;
 	left: -20px;
-	top: 19px;
+	top: 13px;
 	width: 8px;
 	height: 8px;
 	background-color: var(--article-little);
