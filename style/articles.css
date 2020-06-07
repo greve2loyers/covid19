@@ -294,19 +294,6 @@ input#show_loyers:checked ~ label#label_loyer::before {
 
 
 
-/*///////////////////////////////////*/
-/*TRACT APPEL ACCUEIL*/
-#tract-appel-accueil {
-	border: 1px solid black;
-}
-/*TRACT APPEL ACCUEIL*/
-/*///////////////////////////////////*/
-
-
-
-
-
-
 
 /*///////////////////////////////////*/
 /*LISTE ARTICLES*/
