@@ -174,7 +174,7 @@ article .image-box input:checked ~ .zoom-photo {
 }
 article .text-img {
 	position: absolute;
-	bottom: 10px;
+	bottom: 0px;
 	right: 13px;
 	margin: 0px;
 }
